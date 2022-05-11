@@ -47,9 +47,8 @@ git checkout main
 git merge Bug_Reports
 
 6. Запушить main на внешний репозиторий.
-git add .
-git commit -m "merged with Bug_reports"
-git push
+
+git push origin main
 
 7. В ветке CheckLists набросать структуру чек листа.
 
@@ -58,7 +57,7 @@ git push
 2название проверки
 3результат
 4комментарий
-
+ ^d
 
 8. Запушить структуру на внешний репозиторий
 
